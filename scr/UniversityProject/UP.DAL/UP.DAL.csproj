@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UP.DAL.Interfaces\UP.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

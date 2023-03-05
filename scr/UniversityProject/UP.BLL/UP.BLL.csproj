@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Implemetations\" />
+    <Folder Include="Publics\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UP.DAL.Interfaces\UP.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
